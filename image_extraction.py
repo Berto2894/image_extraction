@@ -4,7 +4,6 @@ import pytesseract
 
 # Path ke binary Tesseract (contoh di Windows)
 pytesseract.pytesseract.tesseract_cmd = os.path.join(os.getenv('LOCALAPPDATA', 'C:\\'), 'Programs', 'Tesseract-OCR', 'tesseract.exe')
-pytesseract.pytesseract.tesseract_cmd = r'C:\Users\uSeR\AppData\Local\Programs\Tesseract-OCR\tesseract.exe'
 
 def extract_text_from_image(image):
     # Ekstraksi teks menggunakan Tesseract OCR
