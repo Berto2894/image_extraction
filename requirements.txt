@@ -1,3 +1,4 @@
 tesseract
 streamlit
 Pillow
+pytesseract
