@@ -3,7 +3,7 @@ from PIL import Image
 import pytesseract
 
 # Path ke binary Tesseract (contoh di Windows)
-pytesseract.pytesseract.tesseract_cmd = r'R\AppData\Local\Programs\Tesseract-OCR\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = r'C:\Users\uSeR\AppData\Local\Programs\Tesseract-OCR'
 
 def extract_text_from_image(image):
     # Ekstraksi teks menggunakan Tesseract OCR
